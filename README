@@ -1,0 +1,17 @@
+Grupa 313CA
+Constantinescu Delia-Georgiana
+Tema 1
+
+In functia main:
+ - am implementat parsarea de comenzi de la tastatura cu ajutorul unui buffer alocat static
+ (vectorul command)
+ - am folosit un pointer auxiliar (tmp) pentru a ma ajuta la citirea individuala a parametrilor
+
+read_param():
+ - citesc de la tastatura datele si le stochez intr-o variabila de tip data_structure
+ - memorez tipul si dimensiunea calculata in header
+ - datele efective le stochez in campul data, succesiv in memorie
+ - returnez variabila creata
+
+    Restul functiilor sunt implementate conform cerintei, memoria este realocata la fiecare
+modificare a dimensiunii vectorului arr de tip void*.
